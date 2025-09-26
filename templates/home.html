@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style src="style.css"></style>
+</head>
+<body>
+     <h1> Text based movie Recommendation system </h1>
+     <p>The input given in the text box analyses the emotion and recommend a set of movies to watch based on the discovered emotion</p>
+     <form method="POST" action="/predict" id="formEvent">
+          <p> enter what you feel right now!!!!</p>
+          <textarea rows="10" cols="50" type="text" name="text" id="text"></textarea>
+          <button type="submit" id="btn">submit</button>
+     </form>
+
+     <div id="result"></div>
+     <script src="index.js"></script>
+</body>
+</html>
