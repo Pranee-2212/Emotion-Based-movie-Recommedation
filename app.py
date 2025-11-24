@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify,render_template
 from flask_cors import CORS
 
 import os
-#import requests
+
 
 from test_modedel import predict_emotion
 from api_addressData import emotion_recommendations,movie_genres_id
